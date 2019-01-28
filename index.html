@@ -1,0 +1,108 @@
+<!docotype html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <title>Login &amp; Sign Up</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    
+</head>
+<body>
+    
+<!-- Start Login & Sign Up -->
+    
+<section class="signUp_login">
+<div class="overlay">
+    
+    <!-- Informations (Left section) -->
+    <div class="info">
+        <div class="container">
+            <ul>
+                <li><i class="fas fa-star"><p>Use your real name in the registry</p></i></li>
+                <li><i class="fas fa-star"><p>Put an appropriate title for your job</p></i></li>
+                <li><i class="fas fa-star"><p>By registering you agree to all our terms and conditions</p></i></li>
+                <li><i class="fas fa-star"><p>Check all the information after filling out the forms as they will be used later</p></i></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Two Forms (Right section) -->
+    <div class="forms">
+        
+        <!-- Title -->
+        <h2>Login &amp; Sign Up</h2>
+        
+        <!-- Sign Up & Login Buttons -->
+        <div class="signUp_login_buttons center-block text-center">
+            <button type="button" class="btn button_active" id="login">Login</button>
+            <button type="button" class="btn" id="signUp">Sign Up</button>
+        </div>
+        
+        <!-- Login -->
+        <div class="login_form" id="login_form">
+            <form>
+                <!-- User name -->
+                <div class="form-group text">
+                    <label for="inputUsername">Username</label>
+                    <input type="text"  class="form-control input-lg" id="inputUsername" placeholder="Username & Email"/>
+                </div>
+                <!-- Password -->
+                <div class="form-group text">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control input-lg" id="inputPassword" placeholder="Your password"/>
+                </div>
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-login">Sign In</button>
+            </form>
+        </div>
+        
+        <!-- Sign Up -->
+        <div class="signUp_form" id="signUp_form">
+            <form>
+                <!-- User name -->
+                <div class="form-group text">
+                    <label for="inputUsername">Full Name</label>
+                    <input type="text"  class="form-control input-lg" id="inputUsername" placeholder="Your Name"/>
+                </div>
+                <!-- Email -->
+                <div class="form-group text">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control input-lg" id="inputEmail" placeholder="Your Email"/>
+                </div>
+                <!-- Password -->
+                <div class="form-group text">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control input-lg" id="inputPassword" placeholder="Your Password"/>
+                </div>
+                <!-- Jop -->
+                <div class="form-group text">
+                    <label for="inputJop">Jop Titel</label>
+                    <input type="password" class="form-control input-lg" id="inputJop" placeholder="Your Jop Titel"/>
+                </div>
+                <!-- Picture -->
+                 <div class="form-group text">
+                    <label for="inputJop">Your Picture</label>
+                    <input type="file" class="form-control input-lg" id="inputJop" placeholder="Your Jop Titel"/>
+                </div>
+                
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-login">Sign Up</button>
+            </form>
+        </div>
+        
+    </div>
+</div>
+</section>  
+    
+<!-- End Sign Up & Login -->
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script> 
+</body>
+</html>
